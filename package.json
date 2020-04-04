@@ -1,0 +1,28 @@
+{
+  "name": "favoriterecipe",
+  "version": "1.0.0",
+  "description": "App used to list all your favorite recipes",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "sequalize",
+    "postgres"
+  ],
+  "author": "Robert Perez",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.0.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
