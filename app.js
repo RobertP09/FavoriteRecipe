@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 //Connect to DB -- Sequelize
 sequelize
-    .sync(/* {force: true}*/)
+    .sync({force: true})
     .then(result => {
         //console.log(result);
 
